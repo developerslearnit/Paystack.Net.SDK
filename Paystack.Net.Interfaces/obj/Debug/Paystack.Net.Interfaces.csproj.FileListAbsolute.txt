@@ -1,0 +1,8 @@
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\obj\Debug\Paystack.Net.Interfaces.csprojResolveAssemblyReference.cache
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\obj\Debug\Paystack.Net.Interfaces.csproj.CoreCompileInputs.cache
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\bin\Debug\Paystack.Net.Interfaces.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\bin\Debug\Paystack.Net.Interfaces.pdb
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\bin\Debug\Paystack.Net.Models.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\bin\Debug\Paystack.Net.Models.pdb
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\obj\Debug\Paystack.Net.Interfaces.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Interfaces\obj\Debug\Paystack.Net.Interfaces.pdb

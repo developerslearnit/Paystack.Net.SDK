@@ -1,0 +1,14 @@
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.csprojResolveAssemblyReference.cache
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.csproj.CoreCompileInputs.cache
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.SDK.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.SDK.pdb
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Newtonsoft.Json.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.Contstants.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.Interfaces.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.Models.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.Contstants.pdb
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.Interfaces.pdb
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.Models.pdb
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Newtonsoft.Json.xml
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.dll
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.pdb

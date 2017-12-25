@@ -1,0 +1,25 @@
+﻿@model Paystack.Net.Models.PaymentInitalizationResponseModel
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Index</title>
+</head>
+<body>
+    <div>
+        <h3>Status: @Model.status</h3>
+        <h3>Message: @Model.message</h3>
+        @if (Model.data != null)
+    {
+        <h3>Authorization Url: @Model.data.authorization_url</h3>
+        <h3>Access Code: @Model.data.access_code</h3>
+        <h3>Reference: @Model.data.reference</h3>
+}
+    </div>
+</body>
+</html>
