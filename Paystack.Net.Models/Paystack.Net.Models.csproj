@@ -40,9 +40,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Authorizations\RequestAuthorizationModel.cs" />
+    <Compile Include="Exports\ExportResponseModel.cs" />
     <Compile Include="PaymentInitalizationResponseModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="TransactionVerificationResponseModel.cs" />
+    <Compile Include="TransactionListViewModel.cs" />
+    <Compile Include="TransactionResponseModel.cs" />
+    <Compile Include="TransTotal\TransactionTotal.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

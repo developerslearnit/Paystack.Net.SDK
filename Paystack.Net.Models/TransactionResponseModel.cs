@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Paystack.Net.Models
 {
-    public class TransactionVerificationResponseModel
+    public class TransactionResponseModel
     {
         public bool status { get; set; }
         public string message { get; set; }
@@ -79,6 +79,6 @@ namespace Paystack.Net.Models
         public object fees { get; set; }
         public Authorization authorization { get; set; }
         public Customer customer { get; set; }
-        public string plan { get; set; }
+        //public string plan { get; set; }
     }
 }
