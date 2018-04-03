@@ -12,6 +12,11 @@ This Library require .Net framework 4.6 or higher
 ### Installing
 Install this library from [Nuget](https://www.nuget.org/)
 
+### Sample web Application
+
+ [Check out the sample web Application](https://github.com/developerslearnit/Paystack.Net.SampleApp)
+
+
 ### Usage
 
 #### Transactions
@@ -51,7 +56,8 @@ using Paystack.Net.SDK.Transactions;
 
     var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
     var response = await paystackTransactionAPI.TransactionTimeline("cipyd2ikxw");
- 
+    
+
 #### Customers
 
 Requires using Paystack.Net.SDK.Customers namespace and an instance of PaystackCustomers
@@ -64,8 +70,6 @@ Requires using Paystack.Net.SDK.Customers namespace and an instance of PaystackC
      var paystackCustomerAPI = new PaystackCustomers(YOUR_SECRET_KEY_HERE);
      var response = await paystackCustomerAPI.ListCustomers();
 
-####
-
 ## Authors
 
 * **Mark Adesina** -  [DeveloperslearnIt](http://www.developerslearnit.com/)
@@ -73,23 +77,8 @@ Requires using Paystack.Net.SDK.Customers namespace and an instance of PaystackC
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details
+This project is licensed under the MIT License
 
 ## Still on the roadmap
-
-* SubAccounts
-* Plans
-* Subscriptions
-* Transfers
 * Invoices
 * etc
-
-
-I had a requirement to integrate Paystack payment platform for a client, then I found this library on nuget.org https://www.nuget.org/packages/Paystack.Net. Unfortunately, I couldnt use it. Below is the error message I got when I tried installing it:
-
-Could not install package 'Paystack.Net 0.7.1'. You are trying to install this package into a project that targets '.NETFramework,Version=v4.6', 
-but the package does not contain any assembly references or content files that are compatible with that framework. 
-For more information, contact the package author.
-
-So I decided to do it from ground up and the turn it to a nuget package that can be used by other developers. Here then new one I just added https://www.nuget.org/packages/Paystack.Net.SDK/1.0.0
-
