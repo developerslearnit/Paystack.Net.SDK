@@ -44,9 +44,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Customers\PaystackCustomers.cs" />
     <Compile Include="HttpConnection.cs" />
+    <Compile Include="Plans\PaystackPlans.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Subaccounts\PaystackSubaccounts.cs" />
+    <Compile Include="Subscription\PaystackSubscription.cs" />
     <Compile Include="Transactions\PaystackTransaction.cs" />
+    <Compile Include="Transfers\PaystackTransfers.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Paystack.Net.Contstants\Paystack.Net.Contstants.csproj">

@@ -40,7 +40,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ICustomers.cs" />
+    <Compile Include="IPlans.cs" />
+    <Compile Include="ISubAccounts.cs" />
+    <Compile Include="ISubscriptions.cs" />
     <Compile Include="ITransactions.cs" />
+    <Compile Include="ITransfers.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

@@ -4,3 +4,9 @@ C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack.Net.Contstants.dll
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack.Net.Contstants.pdb
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack.Net.Contstants.csprojResolveAssemblyReference.cache
+C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Contstants\bin\Debug\Paystack.Net.Contstants.dll
+C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Contstants\bin\Debug\Paystack.Net.Contstants.pdb
+C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack.Net.Contstants.csprojResolveAssemblyReference.cache
+C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack.Net.Contstants.csproj.CoreCompileInputs.cache
+C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack.Net.Contstants.dll
+C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Contstants\obj\Debug\Paystack.Net.Contstants.pdb
