@@ -10,7 +10,7 @@ This Library require .Net framework 4.6 or higher
 
 
 ### Installing
-Install this library from [Nuget](https://www.nuget.org/)
+Install this library from [Nuget](https://www.nuget.org/packages/Paystack.Net.SDK)
 
 ### Sample web Application
 

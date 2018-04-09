@@ -87,6 +87,7 @@ namespace Paystack.Net.SDK.Transactions
             var response = await client.GetAsync($"transaction/verify/{reference}");
 
             var json = await response.Content.ReadAsStringAsync();
+          
 
             return JsonConvert.DeserializeObject<TransactionResponseModel>(json);
         }
