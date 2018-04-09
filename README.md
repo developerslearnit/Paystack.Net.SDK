@@ -31,8 +31,12 @@ using Paystack.Net.SDK.Transactions;
     var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
     var response = await paystackTransactionAPI.InitializeTransaction("customer@gmail.com", 500000);
     if(response.status){
-         .....
-    }
+        Response.AddHeader("Access-Control-Allow-Origin", "*");
+        Response.AppendHeader("Access-Control-Allow-Origin", "*");
+		Response.Redirect(response.data.authorization_url);
+    }else{
+	//Handle Error
+	}
 
 ##### Transaction Verification
     var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
