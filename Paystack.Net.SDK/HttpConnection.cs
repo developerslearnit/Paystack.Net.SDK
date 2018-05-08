@@ -23,8 +23,11 @@ namespace Paystack.Net.SDK
 
             
             client.DefaultRequestHeaders.Clear();
+
             client.DefaultRequestHeaders.Accept.Add(
                 new MediaTypeWithQualityHeaderValue(BaseConstants.ContentTypeHeaderJson));
+
+            client.DefaultRequestHeaders.Add("cache-control", "no-cache");
 
             client.DefaultRequestHeaders.Authorization = new AuthenticationHeaderValue(BaseConstants.AuthorizationHeaderType, secretKey);
 

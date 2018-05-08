@@ -30,15 +30,16 @@ namespace Paystack.Net.SDK.Transactions
         /// </summary>
         /// <param name="email"></param>
         /// <param name="amount"></param>
-        /// <param name="firstName"></param>
+        /// <param name="firstName"></param>        
         /// <param name="lastName"></param>
         /// <param name="callbackUrl"></param>
         /// <param name="reference"></param>
         /// <param name="makeReferenceUnique"></param>
         /// <returns>PaymentInitalizationResponseModel</returns>
 
-        public async Task<PaymentInitalizationResponseModel> InitializeTransaction(string email, int amount, string firstName = null,
-                                                                                string lastName = null,string callbackUrl =null, string reference = null, bool makeReferenceUnique = false)
+        public async Task<PaymentInitalizationResponseModel> InitializeTransaction(string email, int amount,string firstName = null,
+                                                                                string lastName = null,string callbackUrl =null, 
+                                                                                string reference = null, bool makeReferenceUnique = false)
         {
 
             var client = HttpConnection.CreateClient(this._secretKey);
@@ -47,9 +48,10 @@ namespace Paystack.Net.SDK.Transactions
 
             bodyKeyValues.Add(new KeyValuePair<string, string>("email", email));
             bodyKeyValues.Add(new KeyValuePair<string, string>("amount", amount.ToString()));
-
+           
 
             //Optional Params
+          
             if (!string.IsNullOrWhiteSpace(firstName))
             {
                 bodyKeyValues.Add(new KeyValuePair<string, string>("first_name", firstName));
@@ -73,7 +75,49 @@ namespace Paystack.Net.SDK.Transactions
             return JsonConvert.DeserializeObject<PaymentInitalizationResponseModel>(json);
         }
 
-       
+        /// <summary>
+        /// This methods initializes payment transactioons - It inlcude subaccount, transactioncharge etc
+        /// </summary>
+        /// <param name="email"></param>
+        /// <param name="amount"></param>
+        /// <param name="subaccount"></param>
+        /// <param name="transaction_charge"></param>
+        /// <param name="bearer"></param>
+        /// <param name="firstName"></param>
+        /// <param name="lastName"></param>
+        /// <param name="callbackUrl"></param>
+        /// <param name="reference"></param>
+        /// <param name="plan"></param>
+        /// <param name="invoice_limit"></param>
+        /// <param name="makeReferenceUnique"></param>
+        /// <returns></returns>
+
+        public async Task<PaymentInitalizationResponseModel> InitializeTransaction(TransactionInitializationRequestModel requestObj)
+        {
+
+            var client = HttpConnection.CreateClient(this._secretKey);
+
+            var bodyKeyValues = new List<KeyValuePair<string, string>>();
+
+
+            foreach (var property in requestObj.GetType().GetProperties())
+            {
+                if (property.GetValue(requestObj) != null)
+                {
+                    bodyKeyValues.Add(new KeyValuePair<string, string>(property.Name, property.GetValue(requestObj).ToString()));
+                }
+            }
+          
+            var formContent = new FormUrlEncodedContent(bodyKeyValues);
+
+            var response = await client.PostAsync("transaction/initialize", formContent);
+
+            var json = await response.Content.ReadAsStringAsync();
+
+            return JsonConvert.DeserializeObject<PaymentInitalizationResponseModel>(json);
+        }
+
+
 
         /// <summary>
         /// Verifies transaction by reference number

@@ -12,8 +12,10 @@ namespace Paystack.Net.Interfaces
 {
     public interface ITransactions
     {
-        Task<PaymentInitalizationResponseModel> InitializeTransaction(string email, int amount, string firstName = null, 
+        Task<PaymentInitalizationResponseModel> InitializeTransaction(string email, int amount,string firstName = null, 
             string lastName = null, string callbackUrl =null, string reference = null, bool makeReferenceUnique = false);
+
+        Task<PaymentInitalizationResponseModel> InitializeTransaction(TransactionInitializationRequestModel requestObj);
 
         Task<TransactionResponseModel> VerifyTransaction(string reference);
 
