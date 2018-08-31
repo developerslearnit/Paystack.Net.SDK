@@ -41,6 +41,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Authorizations\RequestAuthorizationModel.cs" />
+    <Compile Include="Charge\ChargeAuthorizationInputModel.cs" />
+    <Compile Include="Charge\ChargeCardInputModel.cs" />
+    <Compile Include="Charge\ChargeResponseModel.cs" />
     <Compile Include="Customers\CustomerCreationResponse.cs" />
     <Compile Include="Exports\ExportResponseModel.cs" />
     <Compile Include="PaymentInitalizationResponseModel.cs" />
@@ -55,6 +58,8 @@
     <Compile Include="Transfers\Recipient\TransferRecipientModel.cs" />
     <Compile Include="Transfers\TransferDetails\TransferDetailsModel.cs" />
     <Compile Include="TransTotal\TransactionTotal.cs" />
+    <Compile Include="Verification\BVNVerificationResponseModel.cs" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

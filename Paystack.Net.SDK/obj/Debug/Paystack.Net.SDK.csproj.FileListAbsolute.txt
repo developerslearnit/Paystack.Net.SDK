@@ -1,4 +1,3 @@
-C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.csprojResolveAssemblyReference.cache
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.csproj.CoreCompileInputs.cache
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.SDK.dll
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\bin\Debug\Paystack.Net.SDK.pdb
@@ -26,3 +25,5 @@ C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug
 C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.csproj.CopyComplete
 C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.dll
 C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.pdb
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.csprojAssemblyReference.cache
+C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.SDK\obj\Debug\Paystack.Net.SDK.csproj.CopyComplete

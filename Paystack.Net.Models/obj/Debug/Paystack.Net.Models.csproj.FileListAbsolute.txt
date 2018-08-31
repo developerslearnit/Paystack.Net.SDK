@@ -3,7 +3,6 @@ C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Models\bin\Debug\Paystack.Net
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Models\obj\Debug\Paystack.Net.Models.csproj.CoreCompileInputs.cache
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Models\obj\Debug\Paystack.Net.Models.dll
 C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Models\obj\Debug\Paystack.Net.Models.pdb
-C:\dev\NugetPackages\Paystack.Net.SDK\Paystack.Net.Models\obj\Debug\Paystack.Net.Models.csprojResolveAssemblyReference.cache
 C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Models\bin\Debug\Paystack.Net.Models.dll
 C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Models\bin\Debug\Paystack.Net.Models.pdb
 C:\dev\NugetPackages\PayStack_Backup\Paystack.Net.SDK\Paystack.Net.Models\obj\Debug\Paystack.Net.Models.csproj.CoreCompileInputs.cache
