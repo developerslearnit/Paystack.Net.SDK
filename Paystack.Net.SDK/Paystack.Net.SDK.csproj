@@ -45,6 +45,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Charge\PaystackCharge.cs" />
+    <Compile Include="Fees\ChargeHelper.cs" />
+    <Compile Include="Fees\PaystackFee.cs" />
     <Compile Include="HttpExtension\UrlEncodedHelper.cs" />
     <Compile Include="Customers\PaystackCustomers.cs" />
     <Compile Include="HttpConnection.cs" />

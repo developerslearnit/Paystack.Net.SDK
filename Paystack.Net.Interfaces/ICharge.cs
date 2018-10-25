@@ -9,9 +9,9 @@ namespace Paystack.Net.Interfaces
 {
     public interface ICharge
     {
-        Task<ChargeResponseModel> ChargeCard(ChargeCardInputModel model);
-
-        Task<ChargeResponseModel> ChargeCard(ChargeAuthorizationInputModel model);
+        Task<ChargeResponseModel> ChargeCard(string email, string amount, string pin, string cvv,
+            string expiry_month, string expiry_year, string number, string display_name = null, string value = null,
+            string variable_name = null);
 
         Task<ChargeResponseModel> SubmitPin(string pin, string reference);
 

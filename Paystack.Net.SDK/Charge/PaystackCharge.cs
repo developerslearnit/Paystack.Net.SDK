@@ -70,20 +70,7 @@ namespace Paystack.Net.SDK.Charge
             return JsonConvert.DeserializeObject<ChargeResponseModel>(json);
         }
 
-        public async Task<ChargeResponseModel> ChargeCard(ChargeCardInputModel model)
-        {
-            var client = HttpConnection.CreateClient(this._secretKey);
-
-            var bodyKeyValues = model.ToKeyValue();
-
-            var formContent = new FormUrlEncodedContent(bodyKeyValues);
-
-            var response = await client.PostAsync("charge", formContent);
-
-            var json = await response.Content.ReadAsStringAsync();
-
-            return JsonConvert.DeserializeObject<ChargeResponseModel>(json);
-        }
+     
 
 
         public async Task<ChargeResponseModel> ChargeAuthorization(string amount, string email, string pin, string authorization_code,
@@ -141,21 +128,7 @@ namespace Paystack.Net.SDK.Charge
             return JsonConvert.DeserializeObject<ChargeResponseModel>(json);
         }
 
-        public async Task<ChargeResponseModel> ChargeCard(ChargeAuthorizationInputModel model)
-        {
-            var client = HttpConnection.CreateClient(this._secretKey);
-
-            
-            var jsonObj = JsonConvert.SerializeObject(model);
-            var content = new StringContent(jsonObj, Encoding.UTF8, "application/json");
-            content.Headers.ContentType = new MediaTypeHeaderValue("application/json");
-
-            var response = await client.PostAsync("charge", content);
-
-            var json = await response.Content.ReadAsStringAsync();
-
-            return JsonConvert.DeserializeObject<ChargeResponseModel>(json);
-        }
+      
 
         public async Task<ChargeResponseModel> CheckPendingCharge(string reference)
         {
@@ -203,5 +176,12 @@ namespace Paystack.Net.SDK.Charge
 
             return JsonConvert.DeserializeObject<ChargeResponseModel>(json);
         }
+
+        //public async Task<ChargeResponseModel> ChargeBank()
+        //{
+
+        //}
+
+
     }
 }
