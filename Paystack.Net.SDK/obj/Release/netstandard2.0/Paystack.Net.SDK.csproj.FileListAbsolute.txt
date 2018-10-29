@@ -1,0 +1,16 @@
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.Contstants.dll
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.Interfaces.dll
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.Models.dll
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\obj\Release\netstandard2.0\Paystack.Net.SDK.csprojAssemblyReference.cache
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\obj\Release\netstandard2.0\Paystack.Net.SDK.csproj.CoreCompileInputs.cache
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\obj\Release\netstandard2.0\Paystack.Net.SDK.AssemblyInfoInputs.cache
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\obj\Release\netstandard2.0\Paystack.Net.SDK.AssemblyInfo.cs
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.SDK.deps.json
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.SDK.dll
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.SDK.pdb
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.Contstants.pdb
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.Interfaces.pdb
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\bin\Release\netstandard2.0\Paystack.Net.Models.pdb
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\obj\Release\netstandard2.0\Paystack.Net.SDK.csproj.CopyComplete
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\obj\Release\netstandard2.0\Paystack.Net.SDK.dll
+D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.SDK\obj\Release\netstandard2.0\Paystack.Net.SDK.pdb
