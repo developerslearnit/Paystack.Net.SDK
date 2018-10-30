@@ -1,9 +1,0 @@
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\bin\Release\netstandard2.0\Paystack.Net.Models.deps.json
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\bin\Release\netstandard2.0\Paystack.Net.Models.dll
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\obj\Release\netstandard2.0\Paystack.Net.Models.csprojAssemblyReference.cache
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\obj\Release\netstandard2.0\Paystack.Net.Models.csproj.CoreCompileInputs.cache
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\obj\Release\netstandard2.0\Paystack.Net.Models.AssemblyInfoInputs.cache
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\obj\Release\netstandard2.0\Paystack.Net.Models.AssemblyInfo.cs
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\bin\Release\netstandard2.0\Paystack.Net.Models.pdb
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\obj\Release\netstandard2.0\Paystack.Net.Models.dll
-D:\a\1\Locker\Modules\Database\Admin\ChurchOs.Admin\Paystack.Net.SDK\Paystack.Net.Models\obj\Release\netstandard2.0\Paystack.Net.Models.pdb
