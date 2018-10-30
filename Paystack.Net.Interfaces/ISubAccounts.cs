@@ -1,8 +1,5 @@
 ﻿using Paystack.Net.Models.Subaccounts.CreateSubAccount;
-using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.Net.Interfaces
@@ -16,7 +13,8 @@ namespace Paystack.Net.Interfaces
             float percentage_charge = 0,
             string primary_contact_email = null, string primary_contact_name = null, string primary_contact_phone = null, string settlement_schedule = "auto");
 
-
+        Task<SubAccountModel> CreateSubAccount(Dictionary<string, string> parameters);
+        Task<SubAccountModel> UpdateSubAccount(Dictionary<string, string> parameters);
         Task<SubAccountModel> FetchSubAccount(string subaccount_code);
 
         Task<SubAccountListModel> ListSubAccounts();
