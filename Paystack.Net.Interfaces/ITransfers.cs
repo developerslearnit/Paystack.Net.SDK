@@ -1,10 +1,6 @@
 ﻿using Paystack.Net.Models.Transfers.Initiation;
 using Paystack.Net.Models.Transfers.Recipient;
 using Paystack.Net.Models.Transfers.TransferDetails;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.Net.Interfaces

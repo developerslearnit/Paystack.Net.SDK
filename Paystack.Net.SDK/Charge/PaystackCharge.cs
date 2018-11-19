@@ -1,11 +1,8 @@
 ﻿using Paystack.Net.Interfaces;
 using Paystack.Net.Models.Charge;
-using System;
 using System.Collections.Generic;
-using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using Paystack.Net.SDK.HttpExtension;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
@@ -17,7 +14,7 @@ namespace Paystack.Net.SDK.Charge
         private string _secretKey;
         public PaystackCharge(string secretKey)
         {
-            this._secretKey = secretKey;
+            _secretKey = secretKey;
         }
 
        
@@ -27,7 +24,7 @@ namespace Paystack.Net.SDK.Charge
             string expiry_month, string expiry_year, string number, string display_name = null, string value = null,
             string variable_name = null)
         {
-            var client = HttpConnection.CreateClient(this._secretKey);
+            var client = HttpConnection.CreateClient(_secretKey);
 
             var model = new ChargeCardInputModel()
             {
@@ -77,7 +74,7 @@ namespace Paystack.Net.SDK.Charge
             string display_name = null, string value = null,
             string variable_name = null)
         {
-            var client = HttpConnection.CreateClient(this._secretKey);
+            var client = HttpConnection.CreateClient(_secretKey);
 
             var model = new ChargeAuthorizationInputModel()
             {
@@ -114,7 +111,7 @@ namespace Paystack.Net.SDK.Charge
 
         public async Task<ChargeResponseModel> ChargeAuthorization(ChargeAuthorizationInputModel model)
         {
-            var client = HttpConnection.CreateClient(this._secretKey);
+            var client = HttpConnection.CreateClient(_secretKey);
 
 
             var jsonObj = JsonConvert.SerializeObject(model);
@@ -132,7 +129,7 @@ namespace Paystack.Net.SDK.Charge
 
         public async Task<ChargeResponseModel> CheckPendingCharge(string reference)
         {
-            var client = HttpConnection.CreateClient(this._secretKey);
+            var client = HttpConnection.CreateClient(_secretKey);
 
             var response = await client.GetAsync($"charge/{reference}");
 
@@ -143,12 +140,13 @@ namespace Paystack.Net.SDK.Charge
 
         public async Task<ChargeResponseModel> SubmitOTP(string otp, string reference)
         {
-            var client = HttpConnection.CreateClient(this._secretKey);
+            var client = HttpConnection.CreateClient(_secretKey);
 
-            var bodyKeyValues = new List<KeyValuePair<string, string>>();
-
-            bodyKeyValues.Add(new KeyValuePair<string, string>("otp", otp));
-            bodyKeyValues.Add(new KeyValuePair<string, string>("reference", reference));
+            var bodyKeyValues = new List<KeyValuePair<string, string>>
+            {
+                new KeyValuePair<string, string>("otp", otp),
+                new KeyValuePair<string, string>("reference", reference)
+            };
 
             var formContent = new FormUrlEncodedContent(bodyKeyValues);
 
@@ -161,12 +159,13 @@ namespace Paystack.Net.SDK.Charge
 
         public async Task<ChargeResponseModel> SubmitPin(string pin, string reference)
         {
-            var client = HttpConnection.CreateClient(this._secretKey);
+            var client = HttpConnection.CreateClient(_secretKey);
 
-            var bodyKeyValues = new List<KeyValuePair<string, string>>();
-
-            bodyKeyValues.Add(new KeyValuePair<string, string>("pin", pin));
-            bodyKeyValues.Add(new KeyValuePair<string, string>("reference", reference));
+            var bodyKeyValues = new List<KeyValuePair<string, string>>
+            {
+                new KeyValuePair<string, string>("pin", pin),
+                new KeyValuePair<string, string>("reference", reference)
+            };
 
             var formContent = new FormUrlEncodedContent(bodyKeyValues);
 
