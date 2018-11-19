@@ -21,6 +21,9 @@ namespace Paystack.Net.SDK.Plans
         public async Task<PlansModel> CreatePlan(string name, string description, int amount, string interval, 
             bool send_invoices = false, bool send_sms = false, string currency = "NGN", int invoice_limit = 0)
         {
+
+           
+
             var client = HttpConnection.CreateClient(this._secretKey);
 
             var bodyKeyValues = new List<KeyValuePair<string, string>>();
