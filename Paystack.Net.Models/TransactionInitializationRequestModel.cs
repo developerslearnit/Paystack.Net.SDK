@@ -1,8 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Paystack.Net.Models
 {
@@ -18,6 +14,7 @@ namespace Paystack.Net.Models
         public string callbackUrl { get; set; }
         public string reference { get; set; }
         public string plan { get; set; }
+        public string metadata { get; set; }
         public Int32 invoice_limit { get; set; } = 0;
         public bool makeReferenceUnique { get; set; } = false;
     }

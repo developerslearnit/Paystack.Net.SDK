@@ -2,19 +2,12 @@
 using Paystack.Net.Models.Authorizations;
 using Paystack.Net.Models.Exports;
 using Paystack.Net.Models.TransTotal;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Paystack.Net.Interfaces
 {
     public interface ITransactions
     {
-        Task<PaymentInitalizationResponseModel> InitializeTransaction(string email, int amount,string firstName = null, 
-            string lastName = null, string callbackUrl =null, string reference = null, bool makeReferenceUnique = false);
-
         Task<PaymentInitalizationResponseModel> InitializeTransaction(TransactionInitializationRequestModel requestObj);
 
         Task<TransactionResponseModel> VerifyTransaction(string reference);
