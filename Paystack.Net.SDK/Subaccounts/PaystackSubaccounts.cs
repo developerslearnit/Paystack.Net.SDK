@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Paystack.Net.Interfaces;
-using Paystack.Net.Models.Subaccounts.CreateSubAccount;
+using Paystack.Net.SDK.Models.Subaccounts.CreateSubAccount;
 using System;
 using System.Collections.Generic;
 using System.Linq;

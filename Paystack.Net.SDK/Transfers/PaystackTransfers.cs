@@ -1,8 +1,7 @@
 ﻿using Newtonsoft.Json;
-using Paystack.Net.Interfaces;
-using Paystack.Net.Models.Transfers.Initiation;
-using Paystack.Net.Models.Transfers.Recipient;
-using Paystack.Net.Models.Transfers.TransferDetails;
+using Paystack.Net.SDK.Models.Transfers.Initiation;
+using Paystack.Net.SDK.Models.Transfers.Recipient;
+using Paystack.Net.SDK.Models.Transfers.TransferDetails;
 using System;
 using System.Collections.Generic;
 using System.Linq;

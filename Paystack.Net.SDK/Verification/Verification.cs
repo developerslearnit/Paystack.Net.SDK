@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Paystack.Net.Interfaces;
-using Paystack.Net.Models.Verification;
+using Paystack.Net.SDK.Models.Verification;
 using System;
 using System.Collections.Generic;
 using System.Linq;

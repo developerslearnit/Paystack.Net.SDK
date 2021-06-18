@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Paystack.Net.Interfaces;
-using Paystack.Net.Models.Subscription;
+using Paystack.Net.SDK.Models.Subscription;
 using System;
 using System.Collections.Generic;
 using System.Linq;

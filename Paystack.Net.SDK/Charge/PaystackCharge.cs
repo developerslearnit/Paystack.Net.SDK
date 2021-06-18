@@ -1,6 +1,4 @@
-﻿using Paystack.Net.Interfaces;
-using Paystack.Net.Models.Charge;
-using System;
+﻿using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -9,6 +7,7 @@ using Paystack.Net.SDK.HttpExtension;
 using System.Net.Http;
 using Newtonsoft.Json;
 using System.Net.Http.Headers;
+using Paystack.Net.SDK.Models.Charge;
 
 namespace Paystack.Net.SDK.Charge
 {
@@ -19,8 +18,7 @@ namespace Paystack.Net.SDK.Charge
         {
             this._secretKey = secretKey;
         }
-
-       
+              
 
 
         public async Task<ChargeResponseModel> ChargeCard(string email, string amount, string pin, string cvv,

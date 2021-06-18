@@ -1,6 +1,5 @@
 ﻿using Newtonsoft.Json;
-using Paystack.Net.Interfaces;
-using Paystack.Net.Models.Plans;
+using Paystack.Net.SDK.Models.Plans;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -71,5 +70,7 @@ namespace Paystack.Net.SDK.Plans
 
             return JsonConvert.DeserializeObject<PlanListModel>(json);
         }
+
+        
     }
 }

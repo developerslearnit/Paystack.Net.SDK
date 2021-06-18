@@ -1,10 +1,8 @@
 ﻿using Newtonsoft.Json;
-using Paystack.Net.Contstants;
-using Paystack.Net.Interfaces;
-using Paystack.Net.Models;
-using Paystack.Net.Models.Authorizations;
-using Paystack.Net.Models.Exports;
-using Paystack.Net.Models.TransTotal;
+using Paystack.Net.SDK.Models;
+using Paystack.Net.SDK.Models.Authorizations;
+using Paystack.Net.SDK.Models.Exports;
+using Paystack.Net.SDK.Models.TransTotal;
 using System;
 using System.Collections.Generic;
 using System.Linq;
