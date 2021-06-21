@@ -1,11 +1,50 @@
-# Paystack.Net.SDK
+# Paystack.Net.SDK <img src="https://paystack.com/favicon.png" width="50" height="50"/>
 
-Paystack.Net.SDK is a library for using the [Paystack](https://paystack.com) API from .Net.
+[![Version](https://img.shields.io/nuget/vpre/Paystack.Net.SDK)](https://www.nuget.org/packages/Paystack.Net.SDK)
+[![Downloads](https://img.shields.io/nuget/dt/Paystack.Net.SDK)](https://www.nuget.org/packages/Paystack.Net.SDK)
+
+
+Paystack.Net.SDK is a library for using the [Paystack](https://paystack.com) API from .Net, .Net Core & .Net Standard.
+
+It is written entirely in C#, with no external dependencies. Paystack.Net.SDK is released under the permissive MIT License, so it can be used in both proprietary and free/open source applications.
 
 ## Donation [![Donate](https://img.shields.io/badge/Donate-PayPal-green.svg)](https://www.paypal.me/markadesina) 
 If this project help you reduce time to develop, you can give me a cup of coffee (or a Beer of course) :)
 
 [![Support via PayPal](https://cdn.rawgit.com/twolfson/paypal-github-button/1.0.0/dist/button.svg)](https://www.paypal.me/markadesina) 
+
+
+## Features
+ - **Transactions:**
+   - Initialize a transaction from your backend
+   - Verify Transaction
+   - List Transactions
+   - FetchTransaction
+   - ChargeAuthorization
+   - TransactionTimeline
+   - TransactionTotals
+   - ExportTransactions
+   - CheckAuthorization
+   - RequestReAuthorization
+   
+ - **Subscriptions:**
+   - CreateSubscription
+
+  - **Transfers:**
+   - CreateTransferRecipient
+   - ListTransferRecipients
+   - InitiateTransfer
+   - FetchTransfer
+   - ListTransfers
+   - FinalizeTransfer
+
+- **Charge:**
+   - ChargeCard
+
+- **Customer:**
+   - CreateCustomer
+   - FetchCustomer
+   - ListCustomers
 
 
 ### Prerequisites
