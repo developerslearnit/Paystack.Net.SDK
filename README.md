@@ -30,7 +30,7 @@ If this project help you reduce time to develop, you can give me a cup of coffee
  - **Subscriptions:**
    - CreateSubscription
 
-  - **Transfers:**
+ - **Transfers:**
    - CreateTransferRecipient
    - ListTransferRecipients
    - InitiateTransfer
@@ -38,95 +38,45 @@ If this project help you reduce time to develop, you can give me a cup of coffee
    - ListTransfers
    - FinalizeTransfer
 
-- **Charge:**
+ - **Charge:**
    - ChargeCard
 
-- **Customer:**
+ - **Customer:**
    - CreateCustomer
    - FetchCustomer
    - ListCustomers
 
 
-### Prerequisites
+## Releases
 
-This Library require .Net framework 4.6 or higher
+Stable binaries are released on NuGet, and contain everything you need to collect money via Paystack in your .Net/CLR application. For usage see the [Documentation](https://github.com/developerslearnit/Paystack.Net.SDK/wiki) wiki
 
+- [Nuget](https://www.nuget.org/packages/Paystack.Net.SDK/) (latest)
 
+Paystack.Net.SDK works on .NET and .NET Standard/.NET Core.
 
-### Installing
-Install this library from [Nuget](https://www.nuget.org/packages/Paystack.Net.SDK)
+| Platform      		| Binaries Folder	| 
+|---------------		|-----------		|
+| **.NET 2.0**      	| net20     		| 
+| **.NET 3.5**      	| net35     		| 
+| **.NET 4.0**      	| net40     		| 
+| **.NET 4.5**      	| net45     		| 
+| **.NET 5.0**      	| net50     		| 
+| **.NET Standard 1.4** | netstandard1.4	| 
+| **.NET Standard 1.6** | netstandard1.6	| 
+| **.NET Standard 2.0** | netstandard2.0	| 
+| **.NET Standard 2.1** | netstandard2.1	| 
 
-### Sample web Application
+Paystack.Net.SDK is also supported on these platforms: (via .NET Standard)
 
- [Check out the sample web Application](https://github.com/developerslearnit/Paystack.Net.SampleApp)
+  - **Mono** 4.6
+  - **Xamarin.iOS** 10.0
+  - **Xamarin.Android** 10.0
+  - **Universal Windows Platform** 10.0
 
-
-### Usage
-
-#### Transactions
-
-First, Instantiate PaystackTransactionAPI:
-Add required using
-
-using Paystack.Net.SDK.Transactions;
-
-
-##### Transaction Initialization
-    var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
-    var response = await paystackTransactionAPI.InitializeTransaction("customer@gmail.com", 500000);
-    if(response.status){
-        Response.AddHeader("Access-Control-Allow-Origin", "*");
-        Response.AppendHeader("Access-Control-Allow-Origin", "*");
-		Response.Redirect(response.data.authorization_url);
-    }else{
-	//Handle Error
-	}
-
-##### Transaction Verification
-    var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
-    var response = await paystackTransactionAPI.VerifyTransaction("cipyd2ikxw");
-
-#### Transaction Listings
-    var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
-    var response = await paystackTransactionAPI.ListTransactions();
-
-#### Fetch Transaction
-
-    var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
-    var response = await paystackTransactionAPI.FetchTransaction(9149218);
-
-#### Charge Authorization
-
-    var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
-    var response = await paystackTransactionAPI.ChargeAuthorization("AUTH_lqnf8xjy5j", "mark2kk@gmail.com", 5000);
-
-#### View Transaction Timeline
-
-    var paystackTransactionAPI = new PaystackTransaction(YOUR_SECRET_KEY_HERE);
-    var response = await paystackTransactionAPI.TransactionTimeline("cipyd2ikxw");
-    
-
-#### Customers
-
-Requires using Paystack.Net.SDK.Customers namespace and an instance of PaystackCustomers
-
-#### Create Customer
-     var paystackCustomerAPI = new PaystackCustomers(YOUR_SECRET_KEY_HERE);
-     var response = await paystackCustomerAPI.CreateCustomer("person@live.com", "John", "Doe", "08098786543");
-
-#### List Customers
-     var paystackCustomerAPI = new PaystackCustomers(YOUR_SECRET_KEY_HERE);
-     var response = await paystackCustomerAPI.ListCustomers();
-
-## Authors
-
-* **Mark Adesina** -  [DeveloperslearnIt](http://www.developerslearnit.com/)
+Binaries for all platforms are built from a single Visual Studio 2019 Project. You will need [VS 2019](https://visualstudio.microsoft.com/downloads/) to build or contribute to Paystack.Net.SDK.
 
 
-## License
+## Documentation and FAQs
 
-This project is licensed under the MIT License
-
-## Still on the roadmap
-* Invoices
-* etc
+Check the [Wiki](https://github.com/developerslearnit/Paystack.Net.SDK/wiki).
